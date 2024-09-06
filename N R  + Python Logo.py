@@ -1,9 +1,9 @@
 import turtle
 
-# create a turtle object
+# turtle object
 nr = turtle.Turtle()
 
-#  background color
+#  bg color
 turtle.bgcolor("red")
 
 nr.penup()
@@ -11,7 +11,7 @@ nr.goto(-100, 0)
 nr.pendown()
 nr.setheading(90)
 
-# draw the letter N
+# letter N
 nr.pensize(15)
 nr.pencolor("black")
 nr.forward(100)
@@ -21,13 +21,13 @@ nr.left(150)
 nr.forward(100)
 
 
-# Set the turtle's starting position and heading
+# starting position and heading
 nr.penup()
 nr.goto(15, 0)
 nr.pendown()
 nr.setheading(90)
 
-# Draw the letter R
+# letter R
 nr.forward (100)
 nr.right(80)
 nr.circle(-30, 180)
@@ -37,7 +37,7 @@ nr.right(0)
 nr.forward(2)
 
 
-# Draw the python Logo
+# py Logo
 py = turtle.Turtle()
 s = turtle.Screen()
 s.bgcolor("black")
